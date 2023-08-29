@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="https://www.google.com/search" method="get">
+      <label for="query">Google</label>
+      <input
+        id="query"
+        type="text"
+        name="q"
+        value=""
+        placeholder="Enter your query"
+        size="40"
+        maxlength="25"
+      />
+      <br />
+
+      <fieldset>
+        <legend>Address</legend>
+        Street: <input type="text" name="street" /> City:
+        <input type="text" name="city" /> Zip: <input type="text" name="zip" />
+      </fieldset>
+      <br />
+
+      Your Comments: <br /><textarea
+        name="comments"
+        rows="5"
+        cols="60"
+      ></textarea>
+      <br />
+
+      <select name="grade" title="Grades">
+        <option value="A">Great</option>
+        <option value="B">Good</option>
+        <option value="C" selected>Passed</option>
+        <option value="NC">No Credit</option>
+      </select>
+      <br />
+
+      <select name="grade" title="Grades">
+        <optgroup label="Passing Grades">
+          <option value="A">Great</option>
+          <option value="B">Good</option>
+          <option value="C" selected>Passed</option>
+        </optgroup>
+        <option value="NC">No Credit</option>
+      </select>
+      <br />
+
+      <button type="submit">Submit</button>
+      <!--
+      Programing Languages: <br />
+      <input type="checkbox" name="lang" value="C" /> C <br />
+      <input type="checkbox" name="lang" value="Java" /> Java <br />
+      <input type="checkbox" name="lang" value="Python" /> Python <br />
+
+      Favorite Color: <br />
+      <input type="radio" name="color" value="red" /> Red <br />
+      <input type="radio" name="color" value="green" /> Green <br />
+      <input type="radio" name="color" value="blue" /> Blue <br />
+
+      <input type="reset" name="reset" value="Reset" />
+      <input type="submit" name="search" value="Search" />
+    --></form>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-div {
+.menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,12 +6,7 @@ div {
   background-color: black;
 }
 
-li {
-  padding: 2px;
-  float: left;
-}
-
-footer {
+.footer {
   background-color: black;
   color: white;
   text-align: center;
@@ -27,7 +22,7 @@ footer {
 }
 
 .yellow {
-  color: goldenrod;
+  color: orange;
 }
 
 .subhead {
@@ -36,4 +31,8 @@ footer {
 
 .foot{
   color: grey;
+}
+
+.article {
+  font-size: 20px;
 }

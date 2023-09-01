@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Add Article</title>
   <link rel="stylesheet" href="Lab2.css" />
 </head>
 
 <body>
-  <div>
+  <div class="menu">
     <span id="title">MyTechNews</span>
     <span class="menu">HOME</span>
     <span class="menu">ARTICLES</span>
@@ -20,22 +20,21 @@
   <form>
     <label for="category">Category</label>
     <select name="category" title="category">
-      <option value="bizntech">Biz&IT</option>
+      <option value="bizntech">Biz &#38 IT</option>
       <option value="tech">Tech</option>
       <option value="science">Science</option>
       <option value="policy">Policy</option>
       <option value="cars">Cars</option>
-      <option value="gamingnculture">Gaming&Culture</option>
+      <option value="gamingnculture">Gaming &#38 Culture</option>
     </select><br />
-    Title <input type="text" name="title" size="40" maxlength="25" /><br />
-    Excerpt
-    <input type="excerpt" name="excerpt" size="40" maxlength="25" /><br />
-    <label>Content</label> <br />
+    <label for="Title">Title</label> <input type="text" name="title" size="40" maxlength="25" /><br />
+    <label for="Excerpt">Excerpt</label> <input type="excerpt" name="excerpt" size="40" maxlength="25" /><br />
+    <label for="Content">Content</label> <br />
     <textarea name="content" rows="5"></textarea><br />
     <button type="submit">Add</button>
-    <footer>
-      <span>Your Company Name</span><br />
-      <span class="foot">Copyright Your &copy Company Name. All rights reserved.</span>
+    <footer class="footer">
+      <span>Kiwi Birb</span><br />
+      <span class="foot">Copyright Your &copy Kiwi Birb. All rights reserved.</span>
     </footer>
   </form>
 </body>

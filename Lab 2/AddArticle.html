@@ -19,22 +19,24 @@
   <h1><a href="https://cs3.calstatela.edu/~cs3220stu14/Articles.html">Articles</a> &gt New Article</h1>
   <form>
     <label for="category">Category</label>
-    <select name="category" title="category">
-      <option value="bizntech">Biz &#38 IT</option>
+    <select name="category" title="category" id="category">
+      <option value="bizntech">Biz &#38; IT</option>
       <option value="tech">Tech</option>
       <option value="science">Science</option>
       <option value="policy">Policy</option>
       <option value="cars">Cars</option>
-      <option value="gamingnculture">Gaming &#38 Culture</option>
+      <option value="gamingnculture">Gaming &#38; Culture</option>
     </select><br />
-    <label for="Title">Title</label> <input type="text" name="title" size="40" maxlength="25" /><br />
-    <label for="Excerpt">Excerpt</label> <input type="excerpt" name="excerpt" size="40" maxlength="25" /><br />
+    <label for="Title">Title</label>
+    <input type="text" name="title" id="Title" size="40" maxlength="25" /><br />
+    <label for="Excerpt">Excerpt</label>
+    <input type="excerpt" name="excerpt" id="Excerpt" size="40" maxlength="25" /><br />
     <label for="Content">Content</label> <br />
-    <textarea name="content" rows="5"></textarea><br />
+    <textarea name="content" id="Content" rows="5"></textarea><br />
     <button type="submit">Add</button>
     <footer class="footer">
       <span>Kiwi Birb</span><br />
-      <span class="foot">Copyright Your &copy Kiwi Birb. All rights reserved.</span>
+      <span class="foot">Copyright Your &copy; Kiwi Birb. All rights reserved.</span>
     </footer>
   </form>
 </body>

@@ -1,0 +1,52 @@
+body{
+    background-image: url(sand.png);
+}
+
+div:first-of-type {
+    background-color: black;
+}
+
+tr:first-child {
+    background-color: yellowgreen;
+}
+
+#menu1 > a:link, #menu1 > a:visited {
+  color: white;
+}
+
+#menu1 > a:hover{
+    color: gold;
+}
+
+div {
+    border: 1px solid black;
+    /**border-radius: 5px 10px 15px 20px;
+    border-top: 4px solid red;
+    border-bottom: 4px double black;**/
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+.text1{
+    margin: 10px 2px;
+    padding: 5px;
+}
+
+.text2{
+    height: 8em;
+    width: 50%;
+    padding-top: 15px;
+}
+
+span {
+    display: inline-block;
+    border: 1px solid black;
+}
+

@@ -7,12 +7,43 @@
   color: blue;
 }*/
 
-p,
 div {
-  color: rgb(0, 0, 0) !important;
-  background-color: rgb(147, 233, 190);
+  /**border: 1px solid black;**/
   font-family: "Calibri", Courier, monospace;
   font-weight: bold;
   line-height: 150%;
   text-indent: 2em;
 }
+
+#header{
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+#menu{
+  float: left;
+  width: 6em;
+  border-right: 1px solid black;
+}
+
+#main{
+  margin-left: 7em;
+}
+
+#buttons{
+  padding: 5px;
+  float: right;
+}
+
+.module{
+  margin-top: 10px;
+}
+
+.module-title{
+  font-size: 120%;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+

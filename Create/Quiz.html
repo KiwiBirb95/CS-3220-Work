@@ -3,15 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="block.css" />
-    <title>Document</title>
+    <title>Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            overflow: hidden;
+            padding: 20px;
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        .h_article {
+            float: left;
+            width: 45%;
+            margin-right: 10px;
+            padding: 10px;
+        }
+
+        .h_article img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .h_article h2 {
+            margin: 0;
+        }
+
+        .author-date {
+            clear: both;
+        }
+
+        .author {
+            font-weight: bold;
+            color: orange;
+            margin-right: 5px;
+        }
+
+        .date {
+            color: grey;
+        }
+    </style>
 </head>
-<body>
-    <div id="d1">
-        <div id="d2">Title</div>
-        <div id="d3">
-            <div id="d4">Left</div>
-            <div id="d5">Right</div>
+<body class="home">
+    <div class="container">
+        <div class="h_article">
+            <img src="https://via.placeholder.com/490x200?text=Feature+Story" alt="Feature Story">
+            <h2>AI fever turns Anguilla`s “.ai” domain into a digital gold mine</h2>
+            <p class="subhead">Tiny island country could rake in 10% of its GDP in domain sales this year.</p>
+            <div class="author-date">
+                <span class="author">BENJI EDWARDS</span>
+                <span>-</span>
+                <span class="date">8/31/2023, 2:58 PM</span>
+            </div>
+        </div>
+
+        <div class="h_article">
+            <img src="https://via.placeholder.com/490x200?text=Feature+Story" alt="Feature Story">
+            <h2>Federal health dept. says marijuana should be downgraded to Schedule 3 drug</h2>
+            <p class="subhead">Tiny island country could rake in 10% of its GDP in domain sales this year.</p>
+            <div class="author-date">
+                <span class="author">BETH MOLE</span>
+                <span>-</span>
+                <span class="date">8/31/2023, 2:58 PM</span>
+            </div>
         </div>
     </div>
 </body>
